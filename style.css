@@ -1,0 +1,23 @@
+:root {
+  --theme-primary: hsl(25, 97%, 53%);
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0px;
+  text-decoration: none;
+  font-family: 'Overpass';
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+p {
+  font-size: 15px;
+}
