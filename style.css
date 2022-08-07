@@ -25,6 +25,19 @@ h1 {
   font-weight: 700px;
 }
 
+h2 {
+  color: var(--theme-orange);
+  font-size: 15px;
+  background-color: var(--theme-blue);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+}
+
 .submit {
   background-color: var(--theme-orange);
   height: 46px;
@@ -34,6 +47,11 @@ h1 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.2em;
+}
+
+.submit:hover {
+  background-color: white;
+  color: var(--theme-orange);
 }
 
 button {
@@ -53,6 +71,19 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rating:hover {
+  background-color: var(--theme-orange);
+  fill: white;
+}
+
+.rating:hover svg {
+  fill: white;
+}
+
+svg {
+  fill: var(--theme-orange);
 }
 
 .attribution {
