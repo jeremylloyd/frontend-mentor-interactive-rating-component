@@ -14,6 +14,7 @@ function updateRating(newRating) {
 
 function favourite() {
     element = document.getElementById("favourite")
+    // Update styling
     if (element.classList.contains("selector-active")) {
         element.classList.remove("selector-active")
     } else {

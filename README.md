@@ -33,4 +33,13 @@ Users should be able to:
 
 ### What I learned
 
+My friend taught me a lot about implementing JS:
+- The `button` HTML element can 
+  - All JS functions referenced by the button need to be loaded in the <head> of the webpage using the <script> tag.
+  - If required, the JS can be loaded after the page is loaded by adding the defer tag
+- A JS function can be used to adjust the page style dynamically by assigning and removing classes to certain elements
+- The page state can be controlled without changing URL by adjusting the `.style.display` property. This configuration means you keep all the states of your web page in the HTML, and hiding all but one using `display: None` until the user changes the state
 
+As for non-JS learnings:
+- Setting the `background-image` to a subtle `radial-gradient` is an easy way to make it look modern
+- Thinking about the different states before writing the HTML can help you come up with good classes and IDs in the long-run
