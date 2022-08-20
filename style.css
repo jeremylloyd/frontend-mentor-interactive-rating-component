@@ -13,10 +13,9 @@
   border: none;
   margin: 0px;
   padding: 0px;
-  text-decoration: none;
-  list-style: none;
   font-family: 'Overpass';
   font-weight: 400;
+  list-style: none;
   /* border: white dashed 1px; */
 }
 
@@ -60,7 +59,7 @@ button {
   align-items: center;
 }
 
-.rating {
+.selector {
   background-color: var(--theme-blue);
   color: var(--theme-mediumgrey);
   font-size: 14px;
@@ -73,12 +72,21 @@ button {
   align-items: center;
 }
 
-.rating:hover {
+.selector:hover {
   background-color: var(--theme-orange);
+  color: white;
+}
+
+.selector:hover svg {
   fill: white;
 }
 
-.rating:hover svg {
+.selector-active {
+  background-color: var(--theme-mediumgrey);
+  color: white;
+}
+
+.selector-active svg {
   fill: white;
 }
 
